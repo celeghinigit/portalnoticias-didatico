@@ -8,7 +8,7 @@ class ConectaBD{
 		private $con;
 
 		public function __construct(){
-			require_once "dist/dbConfig.php";
+			require_once "conf/dbConfig.php";
 		}
 
 		public function getConnection(){
